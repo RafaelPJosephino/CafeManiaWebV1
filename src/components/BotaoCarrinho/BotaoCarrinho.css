@@ -1,0 +1,29 @@
+.botao_carrinho{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  margin-left:20px;
+  color: white;
+}
+
+.carrinho-status{
+  background: red;
+  width: 15px;
+  height:  15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

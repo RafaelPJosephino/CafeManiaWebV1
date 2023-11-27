@@ -1,0 +1,58 @@
+.card_produto{
+  width: 100%;
+  min-width: 300px;
+  height: 150px;
+  padding: 0 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin: 0  auto;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+
+}
+.card_produto div{
+  display: flex;
+  width: 90%;
+}
+.card_imagem{
+  height: 100%;
+}
+
+.card_infos{
+  text-align: start;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  flex-direction: column;
+}
+.card_preco{
+  font-size: 25px;
+  font-weight: 400;
+}
+.card_titulo{
+  font-size: 15px;
+  color: rgba(0,0,0,0.5);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.button_add_carrinho{
+  background-color: rgba(255,255,255,0,1);
+  color: blue;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 35px;
+}
+
+.card_produto:hover{
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
