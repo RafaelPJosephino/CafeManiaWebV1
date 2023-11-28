@@ -1,0 +1,36 @@
+.carrinho-item{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.carrinho-item-imagem{
+  width: 70px;
+}
+
+.carrinho-item-titulo{
+  font-size:  20px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 8px;
+}
+.carrinho-item-preco{
+  font-size: 25px;
+  font-weight: 500;
+
+}
+.carrinho-item-conteudo{
+  padding: 0 25px 0 10px;
+}
+.botao-remover-carrinho{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  border: none;
+  cursor: pointer;
+  background: none;
+}

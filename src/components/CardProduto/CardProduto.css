@@ -18,7 +18,9 @@
   width: 90%;
 }
 .card_imagem{
-  height: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 15px;
 }
 
 .card_infos{
