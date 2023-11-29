@@ -5,6 +5,7 @@ import propTypes from 'prop-types';
 function Provider({ children }){
 
   const [produtos, setProdutos] = useState([]);
+  const [carrinhoItens, setCarrinhoItens] = useState([]);
   const [carregamento, setCarregamento] = useState(true);
 
   const value = {
@@ -12,6 +13,8 @@ function Provider({ children }){
     setProdutos,
     carregamento,
     setCarregamento,
+    carrinhoItens,
+    setCarrinhoItens,
   };
 
   return(

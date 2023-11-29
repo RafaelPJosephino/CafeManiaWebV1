@@ -1,4 +1,7 @@
-const formatarMoeda = (value , Moeda)=>{
-  return value.toLocaleString('pt-br',{style:'currency',currency: Moeda });
+const formatarMoeda = (value , moeda)=>{
+  return value.toLocaleString('pt-br', {
+    style:'currency',
+    currency: moeda 
+  });
 };
 export default formatarMoeda;

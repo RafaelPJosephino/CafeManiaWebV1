@@ -1,29 +1,39 @@
 .carrinho-item{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   border-bottom: 1px solid white;
   padding-bottom: 20px;
   margin-bottom: 20px;
+  margin-right: 5px;
+
   position: relative;
+  
 }
 
 .carrinho-item-imagem{
   width: 70px;
+  height: 70px;
+  border-radius: 15px;
 }
 
 .carrinho-item-titulo{
   font-size:  20px;
   font-weight: 500;
-  color: black;
+  color: white;
   margin-bottom: 8px;
 }
 .carrinho-item-preco{
-  font-size: 25px;
+  font-size: 15px;
+  color: white;
   font-weight: 500;
-
+}
+.carrinho-item-descricao{
+  font-size: 12px;
+  color: white;
+  font-weight: 300;
 }
 .carrinho-item-conteudo{
-  padding: 0 25px 0 10px;
+  padding: 0px 25px 0 10px;
 }
 .botao-remover-carrinho{
   position: absolute;
