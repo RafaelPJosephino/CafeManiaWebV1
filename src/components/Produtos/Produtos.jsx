@@ -17,7 +17,6 @@ function Produtos() {
     });
     
   }, []);
-  console.log(produtos);
   return (
     (carregamento && <Carregamento />) || (
       <section className="produtos container">

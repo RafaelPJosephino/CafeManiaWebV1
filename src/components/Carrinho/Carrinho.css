@@ -16,5 +16,28 @@ flex-grow: 1;
 overflow: auto;
 }
 .carrinho-resumo{
+font-size: 25px;
+font-weight: 500;
+padding:  30px 0 15px;
+}
 
+.carrinho-itens .carrinho-itens:last-child{
+  border-bottom: none ;
+}
+.container-resumo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+  align-items: center;
+  padding: 10px;
+}
+.carrinho-resumo-botao-finalizar{
+  background-color:  rgb(199, 199, 199);
+  border: none ;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 10px 10px ;
+  border-radius: 10px;
 }
