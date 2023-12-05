@@ -1,0 +1,71 @@
+.login {
+  background-color: rgb(107, 24, 24);
+  height: 40vh;
+  width: 100%;
+  max-width: 250px;
+  position: fixed;
+  top: 100px;
+  right: 0;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translate(110%, 0);
+  transition: all 400ms ease;
+}
+
+.login-ativo {
+  transform: translate(0%, 0);
+}
+
+.menu-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.container-login {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.input-login {
+  border: none;
+  background-color: rgb(240, 248, 255);
+  width: 100%;
+  border-radius:10px ;
+  padding: 7px;
+}
+
+.botao-registar {
+  border: none;
+  padding: 5px 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+.botao-login {
+  border: none;
+  padding: 5px 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: brown;
+  cursor: pointer;
+}
+
+
+.trocar-cadastro {
+  background: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 10px;
+  margin: 10px;
+}
+

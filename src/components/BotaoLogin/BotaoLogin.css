@@ -1,0 +1,27 @@
+.botao_login{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  margin-left:20px;
+  color: white;
+}
+
+.botao_perfil{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  background: none;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  margin-left:20px;
+  color: white;
+}

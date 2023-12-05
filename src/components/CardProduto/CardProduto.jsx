@@ -6,23 +6,19 @@ import formatarMoeda from '../../utils/formatarMoeda';
 import AppContext from '../../context/AppContext';
 function CardProduto({ produto }) {
 
-  const { id, image, title, price, description } = produto;
+  const { image, title, price, description } = produto;
   const { carrinhoItens, setCarrinhoItens } = useContext(AppContext);
   const addCarrinho = () => {
-    let ProdutoAtualizado = carrinhoItens.find((item) => item.id == id);
-    if (!ProdutoAtualizado) ProdutoAtualizado = produto;
-    const carrinhoItensAtualizado = carrinhoItens.filter((i) => i.id != id);
-    ProdutoAtualizado.amount++;
-    setCarrinhoItens([...carrinhoItensAtualizado, ProdutoAtualizado]);
+    setCarrinhoItens([...carrinhoItens, produto]);
   };
   return (
     <section className="card_produto">
       <div>
-        <img src={image} alt="produto" className="card_imagem" />
-        <div className="card_infos">
-          <h2 className="card_preco">{title}</h2>
-          <h2 className="card_preco">{formatarMoeda(price, 'BRL')}</h2>
-          <h2 className="card_titulo">{description}</h2>
+        <img src={image} alt="produto" className="card_imagem-produto" />
+        <div className="card_infos-produto">
+          <h2 className="card_titulo-produto">{title}</h2>
+          <h2 className="card_preco-produto">{formatarMoeda(price, 'BRL')}</h2>
+          <h2 className="card_titulo-produto">{description}</h2>
         </div>
       </div>
       <button type="button" className="button_add_carrinho" onClick={addCarrinho}><BsCartPlus /></button>

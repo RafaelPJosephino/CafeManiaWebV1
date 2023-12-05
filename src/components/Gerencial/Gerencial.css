@@ -1,0 +1,84 @@
+.Gerencial {
+  width: 100%;
+  max-width: 300px;
+  background-color: rgb(107, 24, 24);
+  height: 100vh;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  padding: 100px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: translate(-100%, 0);
+  transition: all 400ms ease;
+}
+
+.gerencial-item-conteudo {
+  margin: -5px ;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.Gerencial-itens {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.Gerencial-ative {
+  transform: translate(0, 0);
+}
+
+
+.gerencial-item-imagem {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+}
+
+.gerencial-item-titulo {
+  width: 150px;
+  height: 20px;
+}
+
+.gerencial-item-preco {
+  width: 150px;
+  height: 20px;
+
+}
+
+.gerencial-item-link-imagem {
+  width: 150px;
+  height: 20px;
+}
+
+.gerencial-item-descricao {
+  font-size: 12px;
+  width: 150px;
+
+}
+
+.botao-adicionar-gerencial {
+  position: relative;
+  left: 100px;
+  top: 70px;
+  font-size: 40px;
+  color: green;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.botao-atualizar-gerencial {
+  border: none;
+  padding: 5px 10px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: brown;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}

@@ -12,8 +12,16 @@
   padding: 15px;
 }  
 
+.container-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
 .logo{
-  width: 250px;
-  height: 80px;
+  width: 175px;
+  height: 60px;
   border-radius: 20px;
 }

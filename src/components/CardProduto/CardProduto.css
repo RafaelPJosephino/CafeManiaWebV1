@@ -17,29 +17,35 @@
   display: flex;
   width: 90%;
 }
-.card_imagem{
-  height: 100px;
-  width: 100px;
+.card_imagem-produto{
+  height: 80px;
+  width: 80px;
   border-radius: 15px;
 }
 
-.card_infos{
+.card_infos-produto{
   text-align: start;
   padding: 10px;
   border-top: 1px solid #ddd;
   width: 100%;
   flex-direction: column;
 }
-.card_preco{
+.card_preco-produto{
   font-size: 25px;
   font-weight: 400;
 }
-.card_titulo{
+.card_titulo-produto{
   font-size: 15px;
   color: rgba(0,0,0,0.5);
   line-height: 1.5;
   font-weight: 500;
 }
+
+.card_infos-produto h2{
+  color: black;
+  
+}
+
 
 .button_add_carrinho{
   background-color: rgba(255,255,255,0,1);

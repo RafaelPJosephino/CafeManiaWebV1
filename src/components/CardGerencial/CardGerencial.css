@@ -1,0 +1,63 @@
+.gerencial-item{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+
+  position: relative;
+  
+}
+
+.gerencial-item-imagem{
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.gerencial-item-titulo{
+  width: 150px;
+  height: 20px;
+  margin-bottom: 2px;
+}
+.gerencial-item-preco{
+  width: 150px;
+  height: 20px;
+  margin-bottom: 2px;
+  
+}
+
+.gerencial-item-link-imagem{
+  width: 150px;
+  height: 20px;
+  margin-bottom: 2px;
+}
+.gerencial-item-descricao{
+  font-size: 12px;
+  width: 150px;
+  margin-bottom: 2px;
+}
+.gerencial-item-conteudo{
+  padding: 0px 20px 0 10px;
+  
+}
+.botao-remover-gerencial{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+.botao-editar-gerencial{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: green;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
